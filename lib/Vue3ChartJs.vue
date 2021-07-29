@@ -28,6 +28,10 @@ import {
   Tooltip
 } from 'chart.js'
 
+
+import 'chartjs-adapter-moment';
+import ChartStreaming from 'chartjs-plugin-streaming'
+
 Chart.register(
     ArcElement,
     LineElement,
@@ -51,7 +55,8 @@ Chart.register(
     Filler,
     Legend,
     Title,
-    Tooltip
+    Tooltip,
+    ChartStreaming
 )
 
 const Vue3ChartJs = defineComponent({
