@@ -28,8 +28,7 @@ import {
   Tooltip
 } from 'chart.js'
 
-
-import 'chartjs-adapter-moment';
+import 'chartjs-adapter-luxon';
 import ChartStreaming from 'chartjs-plugin-streaming'
 
 Chart.register(
